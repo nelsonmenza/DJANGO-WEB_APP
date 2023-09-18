@@ -6,7 +6,7 @@
     <p>My favourite bands are:</p>
     {% for band in  bands %}
     <ul>
-        <li>{{band}}</li>
+        <li><a href="{% url "band_detail" band.id %}">{{band.name}}</a></li>
     </ul>
     {% endfor %}
 

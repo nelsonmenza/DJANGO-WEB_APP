@@ -1,0 +1,14 @@
+{% extends "listings/base.html" %}
+
+{% block content %}
+
+    <h1>page not found</h1>
+    <p>choose one of this bands:</p>
+    {% for band in  bands %}
+    <ul>
+        <li>{{band.name}}</li>
+    </ul>
+    {% endfor %}
+
+
+{% endblock  %}
