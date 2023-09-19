@@ -1,1 +1,5 @@
-*{ background: white }
+body{ background: white }
+form{
+    display: block;
+}
+/* .errorlist { margin-bottom: -10px } */
