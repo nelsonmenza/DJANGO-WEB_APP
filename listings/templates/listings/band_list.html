@@ -2,11 +2,14 @@
 
 {% block content %}
 
-    <h1>Hello Django</h1>
+    <h1>Band list</h1>
     <p>My favourite bands are:</p>
     {% for band in  bands %}
     <ul>
-        <li><a href="{% url "band_detail" band.id %}">{{band.name}}</a></li>
+        <li>
+            <a href="{% url "band_detail" band.id %}">{{band.name}}</a>
+            <a href="{% url "band_update" band.id %}">[Edit]</a>        
+        </li>
 
     </ul>
     {% endfor %}

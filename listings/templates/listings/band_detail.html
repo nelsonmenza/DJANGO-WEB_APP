@@ -14,5 +14,7 @@
         {% endif %}
     </ul>
     <p>{{band.biography}}</p>
+    <a href="{% url "band_update" band.id %}">Edit this Bands</a>
+    <a href="{% url "band_delete" band.id %}">Delete this Bands</a>
     <a href="{% url "band_list" %}">Back to all bands</a>
 {% endblock  %}
