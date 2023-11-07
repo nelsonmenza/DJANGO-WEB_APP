@@ -92,4 +92,22 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-*Please note that this README is a template and should be customized to suit your project's specific details.*
+_Please note that this README is a template and should be customized to suit your project's specific details._
+
+The "Listings" app in the project allows you to perform CRUD operations on Bands and Listings. Here are the views and their respective functionality:
+
+- **`index`**: Displays a list of Bands and Listings.
+- **`band_list`**: Displays a list of Bands.
+- **`listing_list`**: Displays a list of Listings.
+- **`band_detail`**: Shows details of a specific Band.
+- **`listing_detail`**: Shows details of a specific Listing.
+- **`contact`**: Allows users to send a contact message.
+- **`confirmation`**: Confirms the successful message sent.
+- **`band_create`**: Creates a new Band.
+- **`listings_create`**: Creates a new Listing.
+- **`band_update`**: Updates an existing Band.
+- **`listing_update`**: Updates an existing Listing.
+- **`band_delete`**: Deletes an existing Band.
+- **`listing_delete`**: Deletes an existing Listing.
+
+The "Listings" app provides basic CRUD functionality for Bands and Listings and can serve as a foundation for further development.
